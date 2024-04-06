@@ -66,3 +66,15 @@ p
     font-style: bold;
 }
 
+#reset{
+    width: 200px;
+    height: 50px;
+    background-color:white; 
+    color:black;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
