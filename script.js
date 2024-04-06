@@ -50,12 +50,13 @@ box.addEventListener("click",()=>{
     }
     box.disabled="true";
     count++;
-    
+    if(checkwinner()==false){
     if(count==9) 
     {
         draw();
     }
-    checkwinner();
+    }
+  
     })
 })
 
@@ -75,9 +76,11 @@ checkwinner=()=>{
        if(val1===val2 && val2===val3 && val1!=="")
        {
            disable_buttons();
-           displaywinner(val1);
+          displaywinner(val1);
+          return true;
         }
     }
+    return false;
 }
 
 const removemsg=()=>{
