@@ -45,7 +45,7 @@
     border: none;
 }
 
-#container{
+#messagecontainer{
     color:black;
     font-style: italic;
     font-size: x-large;
@@ -58,12 +58,7 @@ p
     font-size: x-large;
     text-decoration: solid;
 }
-
 .box{
     font-size: xx-large;
     font-style: bold;
-}
-
-.reset{
-    border-radius: 1rem;
 }
