@@ -6,6 +6,8 @@
     color:white;
     display: inline;
     text-align: center;
+    margin-top: 2rem;
+    font-size: 3rem;
 }
 .head {
     display: flex;
@@ -55,10 +57,12 @@ p
 {
     color:whitesmoke;
     font-style: italic;
-    font-size: x-large;
+    font-size: 2rem;
     text-decoration: solid;
+    margin-top: 2rem;
 }
 .box{
-    font-size: xx-large;
+    font-size: 4rem;
     font-style: bold;
 }
+

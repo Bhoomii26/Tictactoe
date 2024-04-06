@@ -56,8 +56,7 @@ box.addEventListener("click",()=>{
         draw();
     }
     }
-  
-    })
+  })
 })
 
 displaywinner=(winner)=>{
