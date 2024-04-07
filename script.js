@@ -17,7 +17,7 @@ const winpatterns=[
 
 const draw=()=>{
     let message = document.createElement("p");
-    message.textContent =  "IT'S A DRAW :(";
+    message.textContent =  "IT'S A DRAW ";
     container.appendChild(message);
 }
 
@@ -61,7 +61,7 @@ box.addEventListener("click",()=>{
 
 displaywinner=(winner)=>{
     let message = document.createElement("p");
-    message.textContent = `Wohoooo! ${winner} WON :P`;
+    message.textContent = `Wohoooo! ${winner} WON 🥳🎉`;
     container.appendChild(message);
 }
 
